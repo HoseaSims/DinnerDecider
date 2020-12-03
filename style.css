@@ -12,6 +12,24 @@ h2{
     margin: 3rem;
 }
 
-.submit-button{
-    padding-top: 3rem;
+#result{
+    font-size: 4rem;
+}
+
+input{
+    text-align: center;
+}
+
+.result-sub{
+    visibility: hidden;
+}
+
+.popanimation{
+    animation: pop-in 1s;
+}
+
+@keyframes pop-in{
+    0% {font-size: 2rem;}
+    50% {font-size: 6rem;}
+    100% {font-size: 4rem;}
 }

@@ -3,6 +3,7 @@ const optionTwo = document.querySelector("#option2")
 const optionThree = document.querySelector("#option3")
 const result = document.querySelector("#result")
 const form = document.querySelector("form");
+const resultSub = document.querySelector(".result-sub")
 
 
 let finalValue;
@@ -31,4 +32,8 @@ form.addEventListener("submit", (e) =>{
     }
     
     result.classList.add("text-success")
+    result.classList.add("popanimation")
+    
+    
+    resultSub.style.visibility = "visible"
 })
