@@ -32,8 +32,9 @@ form.addEventListener("submit", (e) =>{
     }
     
     result.classList.add("text-success")
-    result.classList.add("popanimation")
+    result.classList.toggle("popanimation")
+    result.classList.toggle("popanimationtwo")
     
-    
+
     resultSub.style.visibility = "visible"
 })

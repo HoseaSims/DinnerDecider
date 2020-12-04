@@ -4,13 +4,7 @@ body{
     color: white;
 }
 
-h1{
-    margin: 3rem;
-}
 
-h2{
-    margin: 3rem;
-}
 
 #result{
     font-size: 4rem;
@@ -28,7 +22,17 @@ input{
     animation: pop-in 1s;
 }
 
+.popanimationtwo{
+    animation: pop-in-two 1s;;
+}
+
 @keyframes pop-in{
+    0% {font-size: 2rem;}
+    50% {font-size: 6rem;}
+    100% {font-size: 4rem;}
+}
+
+@keyframes pop-in-two{
     0% {font-size: 2rem;}
     50% {font-size: 6rem;}
     100% {font-size: 4rem;}
