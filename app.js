@@ -31,10 +31,10 @@ form.addEventListener("submit", (e) =>{
         console.log(optionThree.value);
     }
     
-    result.classList.add("text-success")
+    
     result.classList.toggle("popanimation")
     result.classList.toggle("popanimationtwo")
-    
+    result.style.visibility = "visible"
 
     resultSub.style.visibility = "visible"
 })

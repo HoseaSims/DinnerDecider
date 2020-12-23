@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: #333;
+    background-color: #F79D65;
     color: white;
 }
 
@@ -8,11 +8,34 @@ body{
 
 #result{
     font-size: 4rem;
+    text-shadow: 0 0 20px;
+    visibility: hidden;
 }
+
+#submit-button{
+    background-color:#F7B267;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+}
+
+
 
 input{
     text-align: center;
+    padding-top: 10px;
+     background-color: #F7B267;
+     border: none;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+     
 }
+
+
+
+::placeholder{
+    color: white;
+    font-size: 1.5rem;
+}
+
 
 .result-sub{
     visibility: hidden;
@@ -20,10 +43,18 @@ input{
 
 .popanimation{
     animation: pop-in 1s;
+    background-color: #F27059;
+    margin: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    padding-bottom: 20px;
 }
 
 .popanimationtwo{
-    animation: pop-in-two 1s;;
+    animation: pop-in-two 1s;
+    background-color: #F27059;
+    margin: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    padding-bottom: 20px;
 }
 
 @keyframes pop-in{
@@ -37,3 +68,17 @@ input{
     50% {font-size: 6rem;}
     100% {font-size: 4rem;}
 }
+
+.input-section{
+    background-color: #F27059;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    margin: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.text-input{
+    padding-top: 15px;
+    
+}
+
