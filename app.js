@@ -39,10 +39,4 @@ form.addEventListener("submit", (e) =>{
     resultSub.style.visibility = "visible"
 })
 
-<<<<<<< HEAD
-//This is comment is for testing and can be deleted! :)
-=======
 
-
-//This is also a test comment that can be deleted later! :D
->>>>>>> 979bffb535c59c08cecdf18c5a9d70b984f63f85
